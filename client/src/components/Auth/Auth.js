@@ -120,7 +120,7 @@ console.log(error);
           </Button>
  {/* All code for google buttom     */}
           <GoogleLogin
-            clientId={ProcessingInstruction.env.GOOGLE_API}// google api 
+            clientId={process.env.GOOGLE_API}// google api 
             render={(renderProps) => (
               <Button
                 className={classes.googleButton}
